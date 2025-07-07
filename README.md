@@ -1,6 +1,6 @@
 # ABCpp
 
-**ABCpp** is a *theoretical compiler* that transforms any easily accountable agreement functionality—such as Byzantine Agreement, Reliable Broadcast, Consistent Broadcast, or One-to-Many Zero-Knowledge Proof-of-Knowledge—into its **accountable** counterpart, while preserving subquadratic communication overhead.
+**ABCpp** is a *theoretical compiler* that transforms any easily accountable agreement functionality, such as Byzantine Agreement, Reliable Broadcast, Consistent Broadcast, or One-to-Many Zero-Knowledge Proof-of-Knowledge, into its **accountable** counterpart, while preserving subquadratic communication overhead.
 
 The transformation relies on the use of cryptographic certificates. These certificates are generated during the *ratification phase*, right before a decision is made, and subsequently propagated and verified during the *propagation phase*. The overall efficiency of the compiler hinges on the performance of the underlying certificate logic.
 
